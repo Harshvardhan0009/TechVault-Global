@@ -115,6 +115,28 @@ body {
     background: rgba(255, 255, 255, 0.08);
 }
 
+/* ================= CATEGORY CARDS ================= */
+#categories .card {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-weight: bold;
+}
+
+#categories .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+#categories .card span {
+    position: relative;
+    z-index: 1;
+}
+
+
 /* ================= FOOTER ================= */
 .footer {
     padding: 40px;
