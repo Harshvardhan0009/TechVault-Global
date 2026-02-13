@@ -144,3 +144,24 @@ body {
     color: #777;
     border-top: 1px solid #222;
 }
+
+/* ================= CATEGORY BACKGROUNDS ================= */
+.communication {
+    background-image: url("../assets/images/communication.jpg");
+}
+
+.computing {
+    background-image: url("../assets/images/computing.jpg");
+}
+
+.medical {
+    background-image: url("../assets/images/medical.jpg");
+}
+
+.transport {
+    background-image: url("../assets/images/transport.jpg");
+}
+
+.energy {
+    background-image: url("../assets/images/energy.jpg");
+}
