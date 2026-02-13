@@ -100,15 +100,29 @@ body {
 .card {
     width: 220px;
     height: 280px;
-    background: rgba(255, 255, 255, 0.05);
     border-radius: 18px;
+
+    position: relative;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+
+    padding-bottom: 20px;
+
     font-size: 16px;
+    font-weight: 600;
     letter-spacing: 1px;
-    transition: 0.3s ease;
+    color: #ffffff;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .card:hover {
     transform: translateY(-10px);
@@ -164,4 +178,25 @@ body {
 
 .energy {
     background-image: url("../assets/images/energy.jpg");
+}
+
+/*images for the global innovation leaders section cards*/
+/* ================= GLOBAL LEADERS BACKGROUNDS ================= */
+.usa {
+    background-image: url("../assets/images/america.jpg");
+}
+
+.india {
+    background-image: url("../assets/images/india.jpg");
+}
+
+.germany {
+    background-image: url("../assets/images/germany.jpg");
+}
+
+.japan {
+    background-image: url("../assets/images/japan.jpg");
+}
+.china {
+    background-image: url("../assets/images/china.jpg");
 }
